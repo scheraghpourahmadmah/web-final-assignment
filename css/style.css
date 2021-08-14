@@ -1,0 +1,158 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0%;
+    margin: left;
+    background-color:#f4f4f4 ;
+}
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.wrapper {
+    width: 90%; 
+    margin: auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+    height: 30px;
+    background:#e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+.dark{
+    padding:15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*Header*/
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a{
+    color: #ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px ;
+    margin-bottom: 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top:10px;
+}
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight:bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+/*Showcase*/
+#showcase{
+    min-height: 400px;
+    background: url('../image/IMG_4547.JPG') no-repeat center center fixed;
+    text-align:left;
+    color: #ffffff;
+}
+#showcase h1{
+    margin-top: 50px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size:15px;
+}
+#newsletter{
+    padding: 50px;
+    color: #ffffff;
+    background: #35424a;
+
+}
+#newsletter h1{
+    float:left;
+}
+#newsletter form{
+    float: right;
+    margin: 5px;
+}
+#newsletter .contactme{
+    float:right;
+    margin-top: 5px;
+    
+}
+#newsletter input[type = "email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+#newsletter a {
+    text-decoration: none;
+    color: #e8491d;
+}
+#newsletter a:hover {
+    opacity: 0.5;
+}
+/*Boxes*/
+#boxes .container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+#boxes .box{
+    margin: 2rem;
+    text-align:center;
+}
+#boxes .box img{
+    width: 100px;
+    height: 100px;
+}
+
+/*sidebar*/
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+
+}
+
+/*main-col*/
+article#main-col{
+    float: left;
+    width: 65%;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color:#e8491d;
+    text-align:center ;
+}

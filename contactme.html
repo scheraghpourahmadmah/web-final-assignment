@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CONTACT ME</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="branding">
+                    <h1><span class="highlight">WELCOME TO MY PAGE</span></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li ><a href="about.html">ABOUT</a></li>
+                        <li class="current"><a href="contactme.html">CONTACT ME</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <section id="newsletter">
+            <div id="container">
+              <h1>Subscribe To Our Newsletter</h1>
+            </div>
+            <form >
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </section>
+        <Section id="main">
+            <div class="container">
+            <article id="main-col">
+                <h1 class = "page-title"></h1>
+               </ul>
+            </article>
+            <aside id="sidebar">
+                <div class="dark" style ="position: relative;right:500px;" >
+                <h3>Contact Me Form</h3>
+                <form class="quote" action="https://httpbin.org/post" method="POST" target="_blank" >
+                    <div>
+                        <label>Name</label><br>
+                        <input required type="text" placeholder="Name">
+                    </div>
+                    <div>
+                        <label>Email Address</label><br>
+                        <input required type="text" placeholder="Email Address">
+                    </div>
+                    <div>
+                        <label>Address</label><br>
+                        <input required type="text" placeholder="Address">
+                    </div>
+                    <div>
+                        <label>City</label><br>
+                        <input required list="cities" name="city" id="city">
+                        <datalist id="cities">
+                            <option value="Toronto">
+                            <option value="Hamilton">
+                            <option value="Waterloo">
+                            <option value="Ottawa">
+                            <option value="Brampton">
+                           <option value="London">
+                            <option value="Kitchener">
+                            <option value="Barrie">
+                            <option value="Guelph">
+                            <option value="Richmond Hill">
+                            <option value="Mississauga">
+                            <option value="Markham">
+                        </datalist>
+                    </div>
+                    <div>
+                        <label>Postal Code</label><br>
+                        <input required type="numeric" name="postalCode" inputmode="numeric" pattern="^[A-Za-z][0-9][A-Za-z][0-9][A-Za-z][0-9]$">
+                    </div>
+                    <div>
+                    <label>What this is about?</label><br>
+                    <input required type="Radio" name="question-1-answers" id="question-1-answers-A" value="Question">
+                    <label for="Question">Question</label><br>
+                    <input type="Radio" name="question-1-answers" id="question-1-answers-A" value="Comment">
+                    <label for="Question">Comment</label><br>
+                    <input required type="Radio" name="question-1-answers" id="question-1-answers-A" value="Hiring">
+                    <label for="Question">Hiring</label><br>
+                    </div>
+                    <div>
+                        <label>Message</label><br>
+                        <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button id="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+            </aside>
+            </div>
+        </Section>
+        <footer >
+            <p>My Personal Page &copy; 2021</p>
+        </footer>
+    </div>
+  
+</body>
+</html>
